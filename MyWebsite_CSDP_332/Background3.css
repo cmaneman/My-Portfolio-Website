@@ -1,0 +1,29 @@
+.Skills_bk 
+{
+	background-image: url("PP31021008-Tropical-island-by-night.jpg");
+	background-color: #cccccc; /*white(grayish)*/
+	background-repeat: no-repeat;
+	background-size: 1300px 800px;
+}
+.list_style
+{
+color: Indigo;
+font-family: "Arial Black", Gadget, sans-serif
+}
+.h3 
+{
+color: Navy;
+font-family: "Arial Black", Gadget, sans-serif
+}
+.Education_bk
+{
+	background-image: url("creative-scroll-paper-background-vector-set-14-free.jpg");
+	background-color: #cccccc; /*white(grayish)*/
+	background-repeat: no-repeat;
+	background-size: 1350px 1000px;
+}
+.Ed_Font_Style
+{
+	color: #790320;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}

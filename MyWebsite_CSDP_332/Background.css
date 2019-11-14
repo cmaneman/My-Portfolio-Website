@@ -1,0 +1,109 @@
+.body_home 
+{
+ background-image: url("snowM.png");
+ background-color: #cccccc;
+} 
+.body_WE
+{
+ background-image: url("castle-wallpaper-2.jpg");
+ background-color: #cccccc;
+} 
+.text_container_img
+{
+  position: top;
+  bottom: 20px;
+  right: 20px;
+  background-color: DarkGrey;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.text_container_text/*Homepage*/
+{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.text_container_text_Skills
+{
+  position: left;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.top_link
+{
+	padding: 10px;
+	margin:10px;
+	border-radius: 10px;
+	text-align: center;
+	background: rgb(60,0,40);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-size:40px;
+	color: white;
+	font-family: "Times New Roman", Times, serif;
+	font-style: oblique;
+	text-decoration: none;
+	
+}
+.top_link:hover
+{
+	color: rgb(0,60,0);
+	/*color: rgb(241,196,15);Yellow*/
+}
+.h1_TitleWhite
+{
+	font-family: "Times New Roman", Times, serif;
+	font-style: oblique;
+	text-decoration: none;
+	color:white;
+}
+.h1_TitleBlack
+{
+	font-family: "Times New Roman", Times, serif;
+	font-style: oblique;
+	text-decoration: none;
+	color:black;
+}
+@keyframes niceColors 
+{
+  0%   {background-color: blue;}
+  25%  {background-color: purple;}
+  50%  {background-color: violet;}
+  100% {background-color: green;}
+}
+.colorDivAnimation
+{
+  width: 150px;
+  height: 20px;
+  background-color: blue;
+  animation-name: niceColors;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+  animation-delay: 2s;
+}
+@keyframes titleColors 
+{
+  0%   {background-color: blue;}
+  25%  {background-color: purple;}
+  50%  {background-color: violet;}
+  100% {background-color: green;}
+}
+.color_h1
+{
+  width: 150px;
+  height: 20px;
+  background-color: blue;
+  animation-name: titleColors;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+  animation-delay: 2s;
+  
+}

@@ -1,0 +1,26 @@
+.body_about {
+ background-image: url("neighborhood-1224.jpg");
+ background-color: #cccccc;
+ background-repeat: no-repeat;
+ background-size: 1300px 800px;
+}
+.text_container_text_About/*Homepage*/
+{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.text_container_text_ab/*About*/
+{
+  position: top;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
