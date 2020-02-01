@@ -1,0 +1,89 @@
+.margBody 
+{
+    margin: 0;
+    background-color:darkslateblue;
+}
+body 
+{
+    background-image: url(skillsPic.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+h4 
+{
+    text-decoration:underline;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #008B8B;
+}
+
+li a
+{
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active 
+{
+   background-color: #4CAF50;
+   color: white;
+}
+
+li a:hover:not(.active) 
+{
+   background-color: #555;
+   color: white;
+}
+.container 
+{
+    position: absolute;
+    text-align: left;
+    margin: 0 auto;
+    margin-left: 325px;
+    margin-right: 10px;
+    margin-bottom: 1px;
+}
+
+.text-block {
+    position: absolute;
+    /*left: 620px;*/
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: white;
+    padding: 50px 300px 10px 300px; /*top, right, bottom, left*/
+    text-align: left;
+    
+}
+.li_font
+{
+    font-size:18px;
+}
+.ol_font
+{
+    font-size:23px;
+}
+.address_font
+{
+    font-size:17px;
+    text-decoration-color:rebeccapurple;
+}
+footer 
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: deepskyblue;
+    color: orangered;
+    text-align: center;
+    font-size:20px;
+}
